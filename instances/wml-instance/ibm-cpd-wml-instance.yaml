@@ -1,0 +1,18 @@
+apiVersion: wml.cpd.ibm.com/v1beta1
+kind: WmlBase
+metadata:
+  name: wml-cr
+  namespace: tools
+  labels:
+    app.kubernetes.io/instance: wml-cr
+    app.kubernetes.io/managed-by: ibm-cpd-wml-operator
+    app.kubernetes.io/name: ibm-cpd-wml-operator
+spec:
+  ignoreForMaintenance: false
+  scaleConfig: small
+  license:
+    accept: true
+    license: Enterprise
+  version: 4.0.9
+  storageVendor: ""
+  storageClass: managed-nfs-storage
