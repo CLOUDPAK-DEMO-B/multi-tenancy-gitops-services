@@ -1,0 +1,10 @@
+apiVersion: dmc.databases.ibm.com/v1
+kind: Dmcaddon
+metadata:
+  name: dmc-addon
+  namespace: tools
+spec:
+  license:
+    accept: true
+    license: Enterprise
+  version: 4.0.8
