@@ -6,5 +6,5 @@ metadata:
 spec:
   license:
     accept: true
-    license: Enterprise
-  version: 4.0.7
+    license: Standard
+  version: 4.0.8
