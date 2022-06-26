@@ -1,0 +1,11 @@
+apiVersion: ca.cpd.ibm.com/v1
+kind: CAService
+metadata:
+  name: ca-addon-cr
+  namespace: tools
+spec:
+  version: 4.0.8
+  license:
+    accept: true
+  namespace: tools
+  storage_class: managed-nfs-storage
